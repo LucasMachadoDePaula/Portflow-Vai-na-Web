@@ -1,0 +1,145 @@
+* {
+
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+max-width: 1920px;
+width: 100%;
+background: transparent url('img/Retângulo 1.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 2px  0px 0;
+
+}
+
+.box-home{
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 0% auto;*/
+  width: 100%;
+ 
+}
+.box-laranja{
+width: 100%;
+height: 72.22vh;
+background-image: url("img/laranja\ azul\ recorte.png");
+background-size: cover;
+background-position:center ;
+}
+.box-text{
+margin: 0px;
+  color: white;
+font-size: 60px;
+padding-top: 150px;
+padding-right: 35%;
+ padding-left: 20px;
+ font-family: 'Montserrat', sans-serif;
+}
+.box-text2{
+  margin: 0px;
+  color: white; 
+  padding-left:20px;
+padding-top: 30px;
+}
+
+
+.box-img{
+  width: 50%;
+  text-align: right;
+
+
+}
+
+nav{
+  display: flex !important;
+  width: 50%;
+  text-align: right;
+
+ 
+
+}
+
+
+.box-list{
+display: flex !important ; 
+color: black;
+text-align: right;
+text-decoration: none;
+font-weight: bold;
+list-style-type: none;
+flex-direction: end;
+padding: 0% 130%;
+
+}
+li{
+  top: 53px;
+  width: 62px;
+  height: 24px;
+  text-align: left;
+  font: normal normal 300 20px/24px;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  padding: 18px;
+ 
+ 
+  
+
+  
+}
+li:hover{
+color: black;
+
+}
+
+.box-imgs{
+display:flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: space-between;
+padding: 2rem;
+}
+
+figure{
+
+width: 23%;
+margin: 0;
+padding: 1rem 0px;
+}
+figure img{
+  width: 100%;
+}
+
+.box-social{
+  
+  background-color: transparent;
+  padding: 0% 50px;
+
+}
+.box-mini{
+  display: flex;
+ 
+;
+
+}
+.copy{
+display: flex;
+padding: 0% 70px;
+font-size: 20px;
+}
+.box-copy{
+display: flex;
+
+
+}
+.box-layout{
+  color: #707070;
+  align-items: center;
+
+}
+ul li:hover{
+  transform: scale(1.25,1.25);
+}
+main{
+
+}
