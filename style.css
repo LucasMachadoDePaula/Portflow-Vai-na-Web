@@ -68,7 +68,7 @@ text-decoration: none;
 font-weight: bold;
 list-style-type: none;
 flex-direction: end;
-padding: 0% 130%;
+padding-left:130%;
 
 }
 li{
@@ -140,6 +140,13 @@ display: flex;
 ul li:hover{
   transform: scale(1.25,1.25);
 }
-main{
+@media (max-width:500px){
+ 
+  .box-laranja{
+    background-size: cover;
+    background-position: 83%;
+  }
+  .box-text{
 
-}
+  }
+
